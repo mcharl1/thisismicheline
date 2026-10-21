@@ -1,0 +1,83 @@
+CSS
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f4f6f8;
+}
+
+header {
+    link rel="stylecss2"href=stule.css2">
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-top: 4px solid #004080; /* Blue */
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #004080; /* Blue */
+    margin-bottom: 8px;
+    font-size: 2.2em;
+}
+
+address {
+    font-style: normal;
+    color: #555555;
+}
+
+address p {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1b4d3e; /* Green */
+    border-bottom: 2px solid #ffcc00; /* Yellow */
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    color: #004080; /* Blue */
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin: 3px 0;
+}
+
+strong {
+    color: #b30000; /* Red accent for key entity highlights */
+}
+
+ul {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #444444;
+}

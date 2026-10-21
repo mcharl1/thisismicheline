@@ -1,0 +1,169 @@
+CSS
+/* ==========================================
+   Professional Resume CSS 
+   Palette: Deep Blue & Professional Green
+   Typography: Arial
+   ========================================== */
+
+/* CSS Reset & Base Setup */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f4f6f9;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Resume Page Wrapper for Screen Display */
+body {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+    padding: 50px;
+    border-radius: 6px;
+}
+
+/* Hide Unnecessary Elements (like default hr tags) */
+hr {
+    display: none;
+}
+
+/* Header Section */
+header#header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #1b365d; /* Deep Blue Accent */
+    padding-bottom: 20px;
+}
+
+header#header h1 {
+    font-size: 32px;
+    color: #1b365d;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+header#header .location {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+.contact-info a {
+    color: #2e7d32; /* Professional Green Accent */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 8px;
+    transition: color 0.2s ease;
+}
+
+.contact-info a:hover {
+    color: #1b365d;
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    font-size: 16px;
+    color: #1b365d;
+    border-bottom: 2px solid #2e7d32; /* Green bottom border for section headers */
+    padding-bottom: 4px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Professional Summary */
+#summary p {
+    font-size: 14px;
+    color: #444444;
+    line-height: 1.6;
+}
+
+/* Experience & Education Items */
+article.job, article.education-item {
+    margin-bottom: 20px;
+}
+
+article.job h3, article.education-item h3 {
+    font-size: 15px;
+    color: #1b365d;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Subtitles / Meta styling */
+.company {
+    font-weight: bold;
+    color: #2e7d32; /* Green Company Highlight */
+    font-size: 14px;
+}
+
+.job-meta, .meta {
+    font-size: 13px;
+    color: #666666;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+/* Bullet Lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+ul li {
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 5px;
+}
+
+/* Skills Section Subgroups */
+.skills-group {
+    margin-bottom: 12px;
+}
+
+.skills-group h3 {
+    font-size: 13px;
+    color: #1b365d;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    letter-spacing: 0.5px;
+}
+
+.skills-group p, .skills-group ul {
+    font-size: 14px;
+    color: #444444;
+}
+
+/* Print Optimization for clean PDF exports */
+@media print {
+    body {
+        box-shadow: none;
+        padding: 0;
+        max-width: 100%;
+        background: #ffffff;
+    }
+    
+    header#header {
+        border-bottom-color: #1b365d !important;
+    }
+}
